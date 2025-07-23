@@ -35,7 +35,7 @@ fn main() {
     //bool
     let b1: bool = true;
 
-    // unsigned integers
+    // unsigned integers 无符号整数
     let i1: u8 = 1;
     let i2: u16 = 2;
     let i3: u32 = 3;
