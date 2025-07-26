@@ -46,18 +46,12 @@ fn main() {
     let (i1, f1, s1) = t1;
     println!("i1 is:{i1},f1 is:{f1},s1 is:{s1}");//i1 is:5,f1 is:5,s1 is:05
 
-    // empty tuples
+    // empty tuples,所有函数默认的返回类型
     let uint:() = ();
 
     // type aliasing. a new name for a existing type（类型别名,可增强代码可读性）
     type age = u8;
     let a1: age = 57;
-
-    //constant (常量)
-
-
-
-    //static variables （静态变量）
-    
+    println!("a1 is {}", a1);
 
 }
