@@ -54,8 +54,8 @@ fn main() {
     let f2: f64 = 1.0;
 
     // platform specific integers
-    let p1: usize = 1; // usize：指针大小的整数，用于存储内存地址或数组索引等
-    let p2: isize = 1; // isize：指针大小的整数，用于存储内存地址或数组索引等
+    let p1: usize = 1; // usize：无符号整数，用于表示内存中某个位置的大小或索引（64 位系统中是u64,32位系统中是 u32）
+    let p2: isize = 1; // isize：有符号整数，用于表示偏移量或差值，也能指针运算（64 位系统中是i64,32位系统中是 i32）
 
     // characters, &str, and String
     let c1: char = 'c';
