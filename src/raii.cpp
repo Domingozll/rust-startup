@@ -33,6 +33,7 @@ void memory_example_2()
 void memory_example_3()
 {
     unique_ptr<Car> car = make_unique<Car>();
+    unique_ptr<Car> car2 = move(car);// ownership transfer
     // unique_ptr<Car> car2 = car; // error
     function_that_can_throw();
     if(!should_continue()) return;
