@@ -22,7 +22,7 @@ fn main() {
     // + operator
     let ss1: String = String::from("hello,");
     let ss2: String = String::from("world");
-    let ss = ss1 + &ss2; // move ss1 to ss and append ss2
+    let ss = ss1 + &ss2; // move ss1 to ss and append ss2, ss will take the ownership of ss1
     // println!("ss1 is: {ss1}"); // error: value borrowed here after move
     println!("ss2 is: {ss2}"); // ss2 is: world
     println!("ss is: {ss}"); // ss is: hello,world
