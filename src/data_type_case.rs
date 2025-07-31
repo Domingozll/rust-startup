@@ -38,7 +38,7 @@ fn main() {
     let i1: i32 = a1[2];
     println!("i1 is:{i1}"); // i1 is:3
 
-    // tuples (三元组，可存储不同类型数据)
+    // tuples (元组，可存储不同类型数据)
     let t1: (i32, i32, i32) = (1,2,3);
     let t1: (i32, f64, &str) = (5,5.0,"05");
     let s1: &str = t1.2;
