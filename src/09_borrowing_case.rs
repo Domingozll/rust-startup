@@ -9,7 +9,9 @@ fn main() {
     print_string_2(r1); // after this line. r1 will never been used again.
     let r2: &mut String = &mut s2; // can be borrow as mutable
     add_to_string_2(r2);
+    // println!("s2 is: {s2}");// error: immutable borrow occurs here
     println!("r2 is: {r2}");// r2 is: Rust is awesome!!
+    println!("s2 is: {s2}");// s2 is: Rust is awesome!!
 
 
     let s3: String = String::from("Leo");
